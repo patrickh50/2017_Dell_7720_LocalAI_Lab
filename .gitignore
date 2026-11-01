@@ -1,0 +1,29 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+secrets/
+credentials*
+*.key
+*.pem
+*.p12
+*.pfx
+id_*
+.ssh/
+
+# Downloaded model weights and generated output
+*.gguf
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+models/
+outputs/
+
+# Python environments, caches, and notebook artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
